@@ -1,0 +1,13 @@
+.par {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.cat {
+    height: 100px;
+    width: 100px;
+}

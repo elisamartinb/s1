@@ -1,0 +1,44 @@
+body {
+    border:10px black solid;
+    min-height: 100vh;
+}
+
+.container {
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height:400px;
+
+}
+.articulo {
+    
+    max-width:600px;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.titulo {
+    font-size: 18px;
+    margin-bottom: 40px; 
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.par {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.enlace {
+    padding: 8px,16px;
+    margin-left: -16px;
+    position: relative;
+    left: 16px;
+}

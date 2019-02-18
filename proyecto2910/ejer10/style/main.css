@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    min-height:100vh;
+}
+
+.link1, .link2, .link3 {
+    height:200px;
+    width:400px;
+    background-color: peru;
+    color:black;
+    display:none;
+    position:absolute;
+    left:84px;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+#link1:hover .link1 {
+    display:block;
+}
+#link2:hover .link2 {
+    display:block;
+}
+
+#link3:hover .link3 {
+    display:block;
+}
+
+
+

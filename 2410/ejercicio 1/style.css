@@ -1,0 +1,14 @@
+.day {
+    color: purple;
+    border: green 2px solid;
+
+}
+
+.meal {
+    color: blue;
+}
+
+.fila {
+   border: green 2px solid;
+   background-color: yellow;
+}

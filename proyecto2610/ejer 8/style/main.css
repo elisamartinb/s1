@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    flex-grow:1;
+
+}
+
+.inicioheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+}
+
+
+
+.miblog {
+    color: white;
+    font-size: 24px;
+    
+}
+
+.miblog0 {
+    color: white;
+    font-size: 18px;
+   
+}
+
+
+.main {
+    
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    flex-grow: 6;
+}
+
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+   
+    color: white;
+    min-height: 50px;
+    
+    
+    
+}
+
+.iniciofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+
+}
+

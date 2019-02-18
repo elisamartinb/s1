@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    }
+
+.mobile-first {
+    height: 100vh;
+    margin: 8px;
+    display:flex;
+    flex-direction: column;
+}
+
+.site-name {
+background-color: GREY;
+height:50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    flex-flow: 1;
+}
+
+.related-info{
+    display: flex;
+    background-color:grey;
+}
+
+.info {
+    justify-content: center;
+    margin-left:0;
+    margin-right:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(61, 58, 58);
+}
+
+

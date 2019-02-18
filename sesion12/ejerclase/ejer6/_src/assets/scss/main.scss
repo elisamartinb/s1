@@ -1,0 +1,25 @@
+@import 'core/settings';
+
+body {
+	height: 100vh;
+}
+
+.container-fluid {
+	width:100%;
+	
+}
+
+
+.col-1, .col-2, .col-4, .col-6 {
+	background-color:lightseagreen;
+	border: 1px solid black;
+	
+}
+
+.col-12 {
+	background-color: white;
+}
+
+
+
+

@@ -1,0 +1,54 @@
+.ejer6 {
+    display: flex;
+    
+    max-width: 960px;
+    height:100%;
+    flex-direction: column;
+   
+}
+
+.header  {
+    background-color: red; 
+    flex-grow:1;
+    text-align: center;
+    
+}
+
+.main {
+    
+   display: flex;
+   flex-direction: row;
+   align-content: stretch;
+   flex-grow:3;
+   
+   
+   
+}
+
+.aside1 {
+    background-color: orange;
+    
+    
+   
+}
+
+.aside2 {
+    background-color: purple;
+     
+}
+
+p {
+  
+    margin: 0;
+    background-color: blue;
+    flex-grow: 3;
+    
+}
+
+
+.footer {
+    background-color: green; 
+    flex-grow:1; 
+    text-align: center;
+    
+}

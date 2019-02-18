@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+.div1, .div2, .div3 {
+    position: relative;
+}
+
+.div4 {
+    position: fixed;
+    height: 100px;
+    background-color: yellow;
+    width:100%;
+    top: 550px;
+    z-index: 999;
+}

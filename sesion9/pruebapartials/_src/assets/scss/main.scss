@@ -1,0 +1,29 @@
+$fontSize: 18px;
+$fontSizeP:25px;
+$fontColor: red;
+
+body {
+	font-size:$fontSize;
+	background-color: cyan;
+	height:100vh;
+}
+
+h1 {
+	font-size:24px;
+	font-family: 'Times New Roman', Times, serif;
+	color:$fontColor;
+
+}
+
+p{
+	color:$fontColor;
+	font-size: $fontSizeP;
+}
+
+.footer {
+   height:100px;
+   width:300px;
+   position: relative;
+   left:50%;
+   top:100px;
+}
